@@ -1,6 +1,6 @@
 # SimapleBot
 
-### This bot was created to teach my friends how to deploy a telegram on the [heroku](https://heroku.com)
+### This bot was created to teach my friends how to deploy a telegram bot on the [heroku](https://heroku.com)
 
 #### So let's get started
 
