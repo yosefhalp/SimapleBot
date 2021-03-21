@@ -12,10 +12,6 @@
 - - Change the Stack for the App using Heroku CLI:
 ```
 heroku stack:set container --app <your-app-name>
-```
-- Initialise the project files as a Git Repository, push the Repo to 'Heroku Git' and build the Docker Image:
-
-'''
 git clone https://github.com/Deleted-accounts/SimapleBot
 cd SimapleBot
 git init
