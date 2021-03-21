@@ -23,7 +23,8 @@ git commit -m "initial commit"
 heroku git:remote --app <your-app-name>
 git push heroku master
 '''
-  
+
+
 - If the Docker Image Build succeeds, then, your push to the remote repository will succeed, otherwise, your push to the remote repository is rejected as the Docker Image Build fails.
 
 ## Run/Terminate the App
