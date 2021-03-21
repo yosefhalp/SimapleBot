@@ -7,7 +7,7 @@
 - First of all be sure that [heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install) and [git](https://git-scm.com/downloads) are installed on your computer
 
 - Now create a new account in [heroku](https://id.heroku.com/signup/login)
-- open a terminal and write heorku login
+- open a terminal and write '''heorku login'''
 - create a new app usuing the follwing command heroku create <your-app-name>
 
 - Change the Stack for the App using Heroku CLI:
