@@ -9,7 +9,7 @@
 - Now create a new account in [heroku](https://id.heroku.com/signup/login)
 - open a terminal and write heorku login
 - create a new app usuing the follwing command heroku create <your-app-name>
-- - Change the Stack for the App using Heroku CLI:
+- Change the Stack for the App using Heroku CLI:
 ```
 heroku stack:set container --app <your-app-name>
 git clone https://github.com/Deleted-accounts/SimapleBot
