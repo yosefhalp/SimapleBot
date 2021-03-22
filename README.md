@@ -18,6 +18,10 @@ heroku stack:set container --app <your-app-name>
 ```
 git clone https://github.com/Deleted-accounts/SimapleBot
 cd SimapleBot
+'''
+- now edit the config.py file
+
+'''
 git init
 git add .
 git commit -m "initial commit"
