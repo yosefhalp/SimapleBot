@@ -11,10 +11,12 @@ dp = Dispatcher(bot)
 
 @dp.message_handler(commands="start")
 async def start(msg: Message):
-    await bot.send_message(
-        int(LOG_CHANNEL),
-        f"#NEW_USER: \n\nמשתמש חדש {msg.from_user.first_name} {msg.from_user.id} התחיל עם הבוט! "
-    )
+    try:
+        await bot.send_message(
+            int(LOG_CHANNEL),
+            f"#NEW_USER: \n\nמשתמש חדש {msg.from_user.first_name} {msg.from_user.id} התחיל עם הבוט! ")
+    except Exception:
+        pass
 
     # termux IL links
     keyboard_markup = InlineKeyboardMarkup(row_width=3)
