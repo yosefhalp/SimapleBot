@@ -2,7 +2,7 @@ from aiogram import Bot, Dispatcher
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton, Message
 from aiogram.utils.executor import start_polling
 import logging
-from config import *
+from .config import *
 
 logging.basicConfig(level=logging.INFO)
 bot = Bot(TOKEN)
@@ -24,8 +24,9 @@ async def start(msg: Message):
                                                                        "/T7_1ahI6b9O8N0Ih"),
                         InlineKeyboardButton(text="לקבוצה שלנו 🖥",
                                              url="https://t.me/joinchat/VA5XFTr3g_JoT3Gs"),
-                        InlineKeyboardButton(text="תמיכה באפליקציות 📱", url="https://t.me/TermuxILapk"),
-                        InlineKeyboardButton(text="לקוד מקור 📜", url="https://github.com/Deleted-accounts/SimapleBot"))
+                        InlineKeyboardButton(text="לתמיכה באפליקציות 📱", url="https://t.me/TermuxILapk"),
+                        InlineKeyboardButton(text="לקוד מקור 📜", url="https://github.com/Deleted-accounts/SimapleBot"),
+                        InlineKeyboardButton(text="לתרומות 💵", url="https://t.me/TermuxILDonate"))
 
     # creator credit
     if creator_link.startswith('@'):
