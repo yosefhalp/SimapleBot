@@ -126,9 +126,8 @@ async def process_gender(message: types.Message, state: FSMContext):
                                parse_mode=ParseMode.MARKDOWN
                                )
         sleep(2)
-        await bot.send_message(message.chat.id, text=f" היי {message.from_user.first_name} למעבר לערוצים שלנו בחר"
-                                                     " בקישורים הבאים:"
-                                                     "פקודות זמינות לבינתיים: /info", reply_markup=keyboard_markup)
+        await bot.send_message(message.chat.id, text="למעבר לערוצים שלנו בחר בקישורים הבאים:"
+                                                     " פקודות זמינות לבינתיים: /info", reply_markup=keyboard_markup)
 
     await state.finish()
 
