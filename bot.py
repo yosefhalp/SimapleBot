@@ -8,7 +8,7 @@ from aiogram.dispatcher.filters.state import State, StatesGroup
 from aiogram.types import ParseMode, InlineKeyboardButton, InlineKeyboardMarkup
 from aiogram.utils import executor
 from time import sleep
-from .config import *
+from config import *
 
 logging.basicConfig(level=logging.INFO)
 
