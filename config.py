@@ -5,6 +5,7 @@ cretorBt = "למעבר ליוצר ⚔"
 creator_link = "YOUR USERNAME" # or @Usernae or start with https://t.me/
 
 # create a new channel and add your bot to this channel and paste the id in the next line (get it from @userinfobot)
+# don't forget to add your bot to log channel!!!
 LOG_CHANNEL = -100
 
 # optional
