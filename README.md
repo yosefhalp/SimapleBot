@@ -32,9 +32,9 @@ git push heroku master
 
 - If the Docker Image Build succeeds, then, your push to the remote repository will succeed, otherwise, your push to the remote repository is rejected as the Docker Image Build fails.
 
-## Run/Terminate the App
+## Run/Terminate the bot
 
-You can run/terminate the app by allocating/deallocating dynos to the app.
+You can run/terminate the bot by allocating/deallocating dynos to the app.
 
 - To Run:
 ```
