@@ -1,12 +1,12 @@
 
 # required
-TOKEN = "" # from @BotFather
+TOKEN = "5516461963:AAHyx-g6Tq5e7_pUyFvOot8qyGx5lpbyIYw" # from @BotFather
 cretorBt = "למעבר ליוצר ⚔"
-creator_link = "YOUR USERNAME" # or @Usernae or start with https://t.me/
+creator_link = "@yosefhalp" # or @Usernae or start with https://t.me/
 
 # create a new channel and add your bot to this channel and paste the id in the next line (get it from @userinfobot)
-# don't forget to add your bot to log channel!!!
-LOG_CHANNEL = -100
+# don't forget t add your bot to log channel!!!
+LOG_CHANNEL = -100 https://t.me/+Fg29s9PL5zA3MTk0
 
 # optional
 bt1 = "" # text for new button
